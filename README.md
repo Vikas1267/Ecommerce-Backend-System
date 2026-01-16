@@ -81,27 +81,40 @@ All APIs are tested using **Postman**.
 ### Sample Request (Create User)
 
 http
+
 POST /users
+
 Authorization: Bearer <JWT_TOKEN>
+
 json
+
 {
   "name": "Backend User",
   "email": "backend@gmail.com"
 }
+
 Sample Validation Error Response
 json
+
 {
   "name": "Name is required",
   "email": "Invalid email format"
 }
+
 🗄️ Database Schema
+
 Users Table
 Column	Type	Constraints
 id	BIGINT	Primary Key
+
 name	VARCHAR	Not Null
+
 email	VARCHAR	Unique, Not Null
+
 password	VARCHAR	Not Null
+
 created_at	TIMESTAMP	Auto-generated
+
 
 ▶️ How to Run the Project
 Clone the repository
@@ -115,11 +128,10 @@ Run the application
 Test APIs using Postman
 
 📌 Configuration (application.properties)
-properties
-Copy code
+
 spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce_db
 spring.datasource.username=root
-spring.datasource.password=YOUR_PASSWORD
+spring.datasource.password=Amma@7758
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
@@ -138,6 +150,8 @@ Proper validation & error handling
 Resume-ready backend project design
 
 👨‍💻 Author
+
 OMVIKAS INDLA
+
 A backend project to demonstrate practical Spring Boot, JPA, and security concepts used in real-world backend systems.
 
