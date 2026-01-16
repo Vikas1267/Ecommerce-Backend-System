@@ -89,8 +89,11 @@ Authorization: Bearer <JWT_TOKEN>
 json
 
 {
+
   "name": "Backend User",
+  
   "email": "backend@gmail.com"
+  
 }
 
 Sample Validation Error Response
@@ -119,11 +122,11 @@ created_at	TIMESTAMP	Auto-generated
 ▶️ How to Run the Project
 Clone the repository
 
-Create a MySQL database named ecommerce_db
+1.Create a MySQL database named ecommerce_db
 
-Update database credentials in application.properties
+2.Update database credentials in application.properties
 
-Run the application
+3.Run the application
 
 Test APIs using Postman
 
