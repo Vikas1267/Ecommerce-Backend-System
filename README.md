@@ -80,7 +80,7 @@ All APIs are tested using **Postman**.
 
 ### Sample Request (Create User)
 
-```http
+http
 POST /users
 Authorization: Bearer <JWT_TOKEN>
 json
