@@ -73,6 +73,19 @@ Global Exception Handling
     - **401 Unauthorized** → Missing / invalid token
 
 ---
+## Screenshots(Results) : -
+
+<img width="1920" height="1080" alt="Screenshot 2026-01-15 110543" src="https://github.com/user-attachments/assets/5b3866ec-3ab5-4e2b-862c-2bd5a6c6f6b3" />
+
+<img width="1013" height="878" alt="Screenshot 2026-01-15 114701" src="https://github.com/user-attachments/assets/bdd8f559-2d4d-4590-af4f-36e740e48ef7" />
+
+<img width="1567" height="971" alt="Screenshot 2026-01-15 115204" src="https://github.com/user-attachments/assets/edd63fb6-50d2-4e44-ba41-c89432585c49" />
+
+<img width="924" height="889" alt="Screenshot 2026-01-16 115118" src="https://github.com/user-attachments/assets/21bfe602-36f9-45e8-9bee-e71167c01712" />
+
+<img width="921" height="851" alt="Screenshot 2026-01-16 120043" src="https://github.com/user-attachments/assets/1d672ae4-4c5c-4c85-874a-cb2c99471583" />
+
+
 
 ## 🧪 API Testing
 
